@@ -12,9 +12,18 @@ function iniziali(arr){
     return arrIniziali
 }
 
+const iniziali1 = (arr) => {
+    let arrIniziali = [];
+    for(let i = 0; i < arr.length; i++){
+        arrIniziali.push(arr[i][0]);
+    }
+    return arrIniziali
+};
+
 
 // Invoca la funzione qui e stampa il risultato in console
 console.log(iniziali(names));
+console.log(iniziali1(names));
 
 
 
