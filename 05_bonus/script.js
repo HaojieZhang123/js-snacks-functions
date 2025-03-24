@@ -21,9 +21,22 @@ function greet(name) {
     }
 }
 
+const greet1 = (name) => {
+    const date = new Date();
+    let hour = date.getHours();
+    if(hour < 13){
+        console.log(`Buongiorno ${name}.`);
+    } else if(hour < 18){
+        console.log(`Buon pomeriggio ${name}.`);
+    } else {
+        console.log(`Buonasera ${name}.`);
+    }
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 greet(name);
+greet1(name);
 
 
 
