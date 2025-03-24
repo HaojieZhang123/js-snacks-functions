@@ -27,6 +27,8 @@ const filtraIniziali1 = (arr, lettera) => {
 
 // Invoca la funzione qui e stampa il risultato in console
 console.log(filtraIniziali(names, 'A'));
+console.log(filtraIniziali1(names, 'A'));
+
 
 
 
